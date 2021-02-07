@@ -2,7 +2,16 @@
     flex: 1 1 auto;
 }
 
+.exampleone-spacer {
+    flex: 0.1 0.3 auto;
+}
+
+.style {
+    font-size: 30px;
+}
+
 .mat-toolbar {
     background: #beb1b17a;
     color: #fff;
+    margin-top: 20px;
 }
