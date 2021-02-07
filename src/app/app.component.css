@@ -7,11 +7,26 @@
 }
 
 .style {
-    font-size: 30px;
+    font-size: 40px;
+    color: cadetblue;
+    margin-left: 50px;
+}
+
+.styleone {
+    color: darkgray;
 }
 
 .mat-toolbar {
-    background: #beb1b17a;
+    background: #fff;
     color: #fff;
     margin-top: 20px;
+}
+
+.mat-button {
+    color: darkgrey;
+    font-size: 20px;
+}
+
+mat-grid-tile {
+    background: rgb(211, 226, 231);
 }
