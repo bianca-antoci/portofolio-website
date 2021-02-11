@@ -1,0 +1,45 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.exampleone-spacer {
+    flex: 0.1 0.3 auto;
+}
+
+.style {
+    font-size: 40px;
+    color: cadetblue;
+    margin-left: 50px;
+}
+
+.styleone {
+    color: darkgray;
+}
+
+.mat-toolbar {
+    background: #fff;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.mat-button {
+    color: darkgrey;
+    font-size: 20px;
+}
+
+mat-grid-tile {
+    background: rgb(211, 226, 231);
+}
+
+.gridone {
+    color: rgb(124, 118, 124);
+    font: 400 40px Roboto, "Helvetica Neue", sans-serif;
+}
+
+.example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
