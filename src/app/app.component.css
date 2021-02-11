@@ -30,3 +30,8 @@
 mat-grid-tile {
     background: rgb(211, 226, 231);
 }
+
+.gridone {
+    color: rgb(124, 118, 124);
+    font: 400 40px Roboto, "Helvetica Neue", sans-serif;
+}

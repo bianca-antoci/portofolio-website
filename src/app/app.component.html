@@ -1,15 +1,13 @@
 <mat-toolbar>
     <span class="style">Bianca Antoci</span>
     <span class="example-spacer"></span>
-    <button mat-button color="primary">Home</button>
+    <button [routerLink]="''" mat-button color="primary">Home</button>
     <span class="exampleone-spacer"></span>
-    <button mat-button color="primary">Experience</button>
+    <button [routerLink]="'/experience'" mat-button color="primary">Experience</button>
     <span class="exampleone-spacer"></span>
     <button mat-button color="primary">Education</button>
     <span class="exampleone-spacer"></span>
     <button mat-button color="primary">Contact</button>
 
 </mat-toolbar>
-<mat-grid-list cols="2" rowHeight="1:1">
-    <mat-grid-tile></mat-grid-tile>
-    <mat-grid-tile></mat-grid-tile>
+<router-outlet></router-outlet>

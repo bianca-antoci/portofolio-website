@@ -10,6 +10,8 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
 import {MatGridListModule} from '@angular/material/grid-list';
+import { ExperienceComponent } from './experience/experience.component';
+import { HomeComponent } from './home/home.component';
 
 
 
@@ -19,7 +21,9 @@ import {MatGridListModule} from '@angular/material/grid-list';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ExperienceComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
