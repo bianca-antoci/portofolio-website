@@ -12,6 +12,7 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatGridListModule} from '@angular/material/grid-list';
 import { ExperienceComponent } from './experience/experience.component';
 import { HomeComponent } from './home/home.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 
@@ -23,7 +24,9 @@ import { HomeComponent } from './home/home.component';
   declarations: [
     AppComponent,
     ExperienceComponent,
-    HomeComponent
+    HomeComponent,
+    ContactComponent
+  
   ],
   imports: [
     BrowserModule,
