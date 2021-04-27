@@ -34,6 +34,7 @@ mat-grid-tile {
 .gridone {
     color: rgb(124, 118, 124);
     font: 400 40px Roboto, "Helvetica Neue", sans-serif;
+    font-size: 20px;
 }
 
 .example-header-image {
